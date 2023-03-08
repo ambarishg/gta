@@ -40,10 +40,10 @@ file1 = open(filename, 'r',encoding="utf8")
 Lines = file1.readlines()
 file1.close()
 
-st.header("EXELON Innovation Question and Answering System")
+st.header("Geographical Text Analysis Question and Answering System")
 
 user_input = st.text_area("Your Question",
-"What is SLIQ?")
+"What are the geographical features in North East?")
 
 result = st.button("Make recommendations")
 
